@@ -1,4 +1,4 @@
-package learning.springboot.start;
+package learning.springboot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
@@ -6,7 +6,7 @@ import org.springframework.context.annotation.ComponentScan;
 
 
 @EnableAutoConfiguration
-@ComponentScan(basePackages = "learning.springboot")
+@ComponentScan
 public class ApplicationStart {
     public static void main(String[] args) {
         SpringApplication.run(ApplicationStart.class, args);
