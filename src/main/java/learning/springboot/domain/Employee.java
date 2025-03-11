@@ -1,13 +1,13 @@
 package learning.springboot.domain;
 
-public class Anime {
-    private String name;
+public class Employee {
+    public String name;
 
-    public Anime(String name){
+    public Employee(String name) {
         this.name = name;
     }
 
-    public Anime() {
+    public Employee() {
 
     }
 
@@ -18,4 +18,5 @@ public class Anime {
     public void setName(String name) {
         this.name = name;
     }
+
 }
